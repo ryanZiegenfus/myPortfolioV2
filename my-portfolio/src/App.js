@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './components/Header';
-import Resume from './components/Resume';
-import Github from './components/Github';
+import Header from './components/header';
+import Resume from './components/resume';
+import Github from './components/github';
 import './App.css';
 
 function App() {
