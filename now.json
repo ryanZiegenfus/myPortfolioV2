@@ -1,0 +1,3 @@
+{
+    "builds": [{ "src": "my-portfolio/package.json", "use": "@now/static-build" }]
+  }
