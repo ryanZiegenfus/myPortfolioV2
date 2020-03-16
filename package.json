@@ -5,9 +5,12 @@
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-spring-3d-carousel": "^1.1.5",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.1"
+    "semantic-ui-react": "^0.88.1",
+    "uuid": "^3.4.0"
   },
   "scripts": {
     "start": "react-scripts start",

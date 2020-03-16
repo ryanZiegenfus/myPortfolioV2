@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  z-index: 0;
+}
+
+.App {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-image: url(../src/images/black_sand2.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+  z-index: 0;
+}
+
+.header-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  width: 300px;
+  margin: 0 200px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.navs {
+  height: 60%;
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.forBar {
+  height: 100%;
+  width: 700px;
+}
+
+hr {
+  margin: 0;
+}
+
+.projects:hover ~ hr {
+  margin-left: 25%;
+}
+
+.resume:hover ~ hr {
+  margin-left: 50%;
+}
+
+.contact:hover ~ hr {
+  margin-left: 75%;
+}
+
+hr {
+  height: .25rem;
+  width: 25%;
+  margin: 0;
+  background: tomato;
+  border: none;
+  transition: .3s ease-in-out;
+}
+
+.link {
+  font-size: 1.6rem;
+  color: black;
+  z-index: 100000;
+}
+
+.links-bar {
+  height: 25%;
+  width: 3%;
+  min-width: 60px;
+  background: rgb(35,35,35);
+  position: absolute;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.linkedin {
+  width: 65%;
+  height: 12%;
+  background-image: url(./images/linkedin.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 25% auto 0;
+  max-width: 30px;
+}
+
+.github {
+  width: 70%;
+  height: 12%;
+  background-image: url(./images/githublogo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 5% auto;
+  max-width: 30px;
+}
+
+.twitter {
+  width: 75%;
+  height: 12%;
+  background-image: url(./images/twitter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto 25%;  max-width: 22px;
+  max-width: 30px;
+}
+
+.container {
+  width: 100%;
+}
+
+.img_div {
+  height: "500px";
+}
+
+.floor {
+  width: 100%;
+  height: 55%;
+  position:fixed;
+  bottom:0;
+  /* background-image: url(../src/images/black_sand.png); */
+  z-index: -10000;
+}
+
+.carousel {
+  width: 80%;
+  height: 400px;
+  margin: 250px auto 0
+}
